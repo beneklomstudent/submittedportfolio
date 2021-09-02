@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+    
+    
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: horizontal;
+    }
+
+.maintemplate {   /*the primary template for basic text on the website */
+    background-color:#F5D9A6;
+    color:black;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    font-family: 'Hina Mincho', serif;
+    text-align: center, justify;
+    border-radius: 25px;
+    padding: 40px;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+
+h1 {
+    font-family: 'Hina Mincho', serif;
+    color: black;
+
+}
+
+h2   {
+    
+
+
+}
+
+
+#aboutme {
+    color:black;
+}
+
+
+
+
+.gridlinks {     /*  For the links section in the professional links tab  */
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+
+a:hover {
+    background-color: #F5D9A6;
+    }
+
+.bounce  /* may remove */
+    {
+        animation-name: bounce;
+        animation-duration: 4s;
+
+    }
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(-30px);} 
+   60% {transform: translateY(-15px);} 
+
+    }
+
+   
+
+    .maintemplate2 {   /*the blog template for basic text on the website */
+        display: flex;
+        flex-wrap: wrap;
+        left: 100px;
+        top: 150px;
+        position: relative;
+        
+        
+     }
+
+.blogpost {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    text-align: center, justify;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Hina Mincho', serif;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+        
+    
+      
+  }
+  .blogpost :nth-child(1)   
+  {order: 1;
+   
+    
+
+  }
+  .blogpost :nth-child(2)   {
+    order: 3;
+    
+   
+
+    }
+  .blogpost :nth-child(3)   {   
+    order: 2;
+       align-self: center;
+    
+      
+    
+}
+  
+    
+  .blogpost2 {
+display: flex;
+flex-direction: row;
+background-color: green;
+text-align: center, justify;
+border-radius: 25px;
+padding: 10px;
+font-family: 'Hina Mincho', serif;
+filter: drop-shadow(30px 10px 4px #4444dd);
+  
+}
+.blogpost2 :nth-child(1)   
+{order: 1;
+
+}
+.blogpost2 :nth-child(2)   {
+ order: 2;
+}
+.blogpost2 :nth-child(3)   {   
+order: 3;
+align-self: center;
+
+
+
+}
+  
+
+
+/*    @media only screen and (min-width: 481px) and (max-width: 960px) { /* Mobile preset */
+/*        #maintemplate, article {
+            width: 80%;
+    
+                
+        }
+    
+         */
