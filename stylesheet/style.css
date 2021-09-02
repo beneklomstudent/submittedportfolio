@@ -8,6 +8,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
     
     
+    
 header {
     display: flex;
     justify-content: space-evenly;
@@ -40,8 +41,6 @@ h1 {
 #aboutme {
     color:black;
 }
-
-
 
 
 .gridlinks {     /*  For the links section in the professional links tab  */
@@ -139,15 +138,38 @@ align-self: center;
 
 
 
-}
+} 
+/*Phone profile */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .maintemplate{ 
+       left: -5px;
+        
+       }
+    .maintemplate2 {
+
+    }
+    .gridlinks {   /* needs work */
+        left: -500px;
+    }
+
+
+    }
+
+
+
+
+/*  PC profile  */
+
+@media only screen and (min-width: 961px) {
+    .maintemplate{ 
+        left: -2%;
+
+        
+    }
+   
+    }
+    .maintemplate2 {
+        left: -5px;
   
+}
 
-
-/*    @media only screen and (min-width: 481px) and (max-width: 960px) { /* Mobile preset */
-/*        #maintemplate, article {
-            width: 80%;
-    
-                
-        }
-    
-         */
