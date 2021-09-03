@@ -36,7 +36,7 @@ h1 {
 }
 
 
-#blogjumpnav {
+#blogjumpnav {  /* for the blogpage jump to blog navigator */
     display: flex;
     flex-direction: row;
     padding: 50px;
@@ -45,12 +45,12 @@ h1 {
 }
 
 
-#aboutme {
+#aboutme {                  /*basic styling for the about me section*/
     color:black;
 }
 
 
-.gridcontainter
+.gridcontainer      /* container to position the grid in the professional links section */               
 {
     display: flex;
  
@@ -68,7 +68,7 @@ h1 {
 }
 
 
-a:hover {
+a:hover {                   /*basic hover effect for the navbar */
     background-color: #F5D9A6;
     }
 
@@ -86,7 +86,7 @@ a:hover {
         
      }
 
-.blogpost {
+.blogpost {   /*the first template for the blog, it displays images on the left while blogpost 2 does on the right */
     display: flex;
     flex-direction: row;
     background-color: orange;
@@ -99,7 +99,7 @@ a:hover {
     
       
   }
-  .blogpost :nth-child(1)   
+  .blogpost :nth-child(1)               /* the order in which the blogposts elements are placed */
   {order: 1;
    
     
@@ -120,7 +120,7 @@ a:hover {
 }
   
     
-  .blogpost2 {
+  .blogpost2 {          /*displays images on the right*/
 display: flex;
 flex-direction: row;
 background-color: green;
@@ -173,13 +173,13 @@ align-self: center;
     }
    
     }
-    .maintemplate2 {
+    .maintemplate2 {              
         left: -5px;
   
 }
 
 
-.background {
+.background {               /*background image styling*/
     opacity: 5%;
     z-index: 1;
     position: relative;
