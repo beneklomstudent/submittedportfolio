@@ -20,7 +20,7 @@ header {
     color:black;
     position: absolute;
     left: 100px;
-    top: 150px;
+    top: 100px;
     font-family: 'Hina Mincho', serif;
     text-align: center, justify;
     border-radius: 25px;
@@ -36,6 +36,13 @@ h1 {
 }
 
 
+#blogjumpnav {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    font-family: 'Hina Mincho', serif;
+    
+}
 
 
 #aboutme {
@@ -74,7 +81,7 @@ a:hover {
         display: flex;
         flex-wrap: wrap;
         left: 100px;
-        top: 150px;
+        top: 100px;
         position: relative;
         
         
