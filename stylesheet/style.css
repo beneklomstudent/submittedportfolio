@@ -9,7 +9,7 @@
     
     
     
-header {
+header {  /*header information, used for the navbar */
     display: flex;
     justify-content: space-evenly;
     align-items: horizontal;
@@ -39,8 +39,10 @@ h1 {
 #blogjumpnav {  /* for the blogpage jump to blog navigator */
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 10px;
     font-family: 'Hina Mincho', serif;
+    justify-content: space-around;
+    
     
 }
 
@@ -53,7 +55,7 @@ h1 {
 .gridcontainer      /* container to position the grid in the professional links section */               
 {
     display: flex;
- 
+    justify-content: center;
 }
 
 
@@ -114,10 +116,15 @@ a:hover {                   /*basic hover effect for the navbar */
   .blogpost :nth-child(3)   {   
     order: 2;
        align-self: center;
+  }
+  .blogpost :nth-child(4)    {
+    order: 4;
     
+
+  }
       
     
-}
+
   
     
   .blogpost2 {          /*displays images on the right*/
@@ -141,6 +148,10 @@ filter: drop-shadow(30px 10px 4px #4444dd);
 .blogpost2 :nth-child(3)   {   
 order: 3;
 align-self: center;
+}
+.blogpost2 :nth-child(4)  {
+order: 4;
+}
 
 } 
 
@@ -185,4 +196,5 @@ align-self: center;
     position: relative;
     max-width:100%;
     max-height:100%;
+
 }
