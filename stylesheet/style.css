@@ -147,6 +147,8 @@ align-self: center;
        }
     .maintemplate2 {
 
+        left: -5px;
+        
     }
     .gridlinks {   /* needs work */
         left: -500px;
@@ -154,8 +156,6 @@ align-self: center;
 
 
     }
-
-
 
 
 /*  PC profile  */
