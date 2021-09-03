@@ -18,7 +18,6 @@ header {
 .maintemplate {   /*the primary template for basic text on the website */
     background-color:#F5D9A6;
     color:black;
-    position: absolute;
     left: 100px;
     top: 100px;
     font-family: 'Hina Mincho', serif;
@@ -26,6 +25,7 @@ header {
     border-radius: 25px;
     padding: 40px;
     filter: drop-shadow(30px 10px 4px #4444dd);
+    margin: 25px;
 }
 
 
@@ -50,12 +50,20 @@ h1 {
 }
 
 
+.gridcontainter
+{
+    display: flex;
+ 
+}
+
+
 
 .gridlinks {     /*  For the links section in the professional links tab  */
     display: grid;
     grid-column-start: 1;
     grid-column-end: 5;
     justify-content: center;
+
     
 }
 
@@ -134,9 +142,9 @@ filter: drop-shadow(30px 10px 4px #4444dd);
 order: 3;
 align-self: center;
 
-
-
 } 
+
+
 /*Phone profile */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
     .maintemplate{ 
