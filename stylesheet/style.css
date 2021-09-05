@@ -52,11 +52,7 @@ h1 {
 }
 
 
-.gridcontainer      /* container to position the grid in the professional links section */               
-{
-    display: flex;
-    justify-content: center;
-}
+
 
 
 
@@ -152,8 +148,6 @@ align-self: center;
 .blogpost2 :nth-child(4)  {
 order: 4;
 }
-
-} 
 
 
 /*Phone profile */
