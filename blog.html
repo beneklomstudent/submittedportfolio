@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet/style.css">
     <title>Blog</title>
+
+<!-- created a basic image template for the blog page, to keep it seperate from other potential image elements have
+stored it here -->
 <style>
 img {
     align-self: baseline;
@@ -24,7 +27,8 @@ p {
         <nav><a href="resume.html">Resume</a></nav>
         <nav><a href="blog.html">Blog</a></nav>
     </header>
-    
+    <!-- A separate blog jump to point navbar, for easilly jumping to blogposts (right now they're
+        templates) -->
     <div id="blogjumpnav">                  
     <p><a href="#blogjump1">Blog post 1</a></p> 
     <p><a href="#blogjump2">Blog post 2</a></p>
@@ -33,7 +37,10 @@ p {
     <p><a href="#blogjump5">Blog post 5</a></p>
     </div>
     
-    
+    <!-- Blogpost use a unique template container for styling, and the blogpost class to set nth information
+    for custom ordering using flex, on top of the images as previously stated having their own styling 
+    rules, there is a template for images that appear on the left and images that appear on the right, and it alternates
+every second post  -->
         <div class="maintemplate2"> 
         <div class="blogpost"> <div><h2>Blog Post 1</h2></div>
         
