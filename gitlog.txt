@@ -1,0 +1,103 @@
+commit 6eb3a022bf2342635d04d320dbced51918d1ffcb
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 21:04:25 2021 +1000
+
+    removed superflous files
+
+commit 5e55494c336fd2773433477d088af887502ae2af
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 20:24:42 2021 +1000
+
+    added much more documentation to html elements, with explanations of code decisions and aesthetic choices
+
+commit 35dfd038c77cce109b5914a9af2f78c9d6665f8e
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 19:46:15 2021 +1000
+
+    substantially altered the color pallete to better match design documents
+
+commit 008942c18e994d9d9774ce3fe1848b378849b504
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 19:33:02 2021 +1000
+
+    new style, new code on blog, cleaned up much of the code
+
+commit 070efc3cd832bf38ef0875cc1d31e3df848c5c0b
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 18:50:01 2021 +1000
+
+    added more assets, cleaned up code
+
+commit 00f3105cff59598a9bac9bb8f089d2a057b22409
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 13:32:26 2021 +1000
+
+    first commit
+
+commit 41a196cfd4658b5fdf0d53ee3c34e471ea5bc047
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Sun Sep 5 13:10:48 2021 +1000
+
+    second hub commit
+    
+    From github windows application
+
+commit b5ff92b1157a2e65cee19f77a8032705201f33a7
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 15:58:19 2021 +1000
+
+    added more blogposts and additional headers
+
+commit 5c8792e154470e4b17e3b2c9109e7cd1a434960b
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 15:24:53 2021 +1000
+
+    added more comments for documentation purposes
+
+commit d84f7b3b8c91aa562e0b0568825c8971b229dc81
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 15:14:33 2021 +1000
+
+    fixed allignment issues
+
+commit 80e8c87aa634bfd7f62990d391ace04c300ea0bd
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 14:11:43 2021 +1000
+
+    added background image
+
+commit 51742b991e45548df1c4ec31adcdf52c38d60191
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 11:06:12 2021 +1000
+
+    lunch break backup
+
+commit 6a58f5503122a750f982bc478ea2d8a05e6d73e7
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 10:43:07 2021 +1000
+
+    added better spacing
+
+commit 609cf2945be153c6659a4b50b8006cdf9796d016
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Fri Sep 3 10:21:32 2021 +1000
+
+    added jump points on blog
+
+commit f29668189073d7b8577f59e3716df3fa2ac8a58a
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Thu Sep 2 16:13:11 2021 +1000
+
+    added media profiles
+
+commit e0e89fff4988379fedfd388fa2a6b8424a5127af
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Thu Sep 2 13:48:11 2021 +1000
+
+    second commit
+
+commit e598ad261667e5ff378614138e15a0dcc18e6a2d
+Author: beneklomstudent <gcab022107@coderacademy.edu.au>
+Date:   Thu Sep 2 12:40:34 2021 +1000
+
+    first backup
