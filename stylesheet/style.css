@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
+
     }
 
-    @import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+   
     
     
     
 header {  /*header information, used for the navbar */
     display: flex;
     justify-content: space-evenly;
-    align-items: horizontal;
+    
     }
 
 .maintemplate {   /*the primary template for basic text on the website */
@@ -21,7 +23,7 @@ header {  /*header information, used for the navbar */
     left: 100px;
     top: 100px;
     font-family: 'Hina Mincho', serif;
-    text-align: center, justify;
+    
     border-radius: 25px;
     padding: 40px;
     filter: drop-shadow(30px 10px 4px #4444dd);
@@ -88,7 +90,7 @@ a:hover {                   /*basic hover effect for the navbar */
     display: flex;
     flex-direction: row;
     background-color: orange;
-    text-align: center, justify;
+   
     border-radius: 25px;
     padding: 10px;
     font-family: 'Hina Mincho', serif;
@@ -127,7 +129,7 @@ a:hover {                   /*basic hover effect for the navbar */
 display: flex;
 flex-direction: row;
 background-color: green;
-text-align: center, justify;
+
 border-radius: 25px;
 padding: 10px;
 font-family: 'Hina Mincho', serif;
@@ -165,7 +167,10 @@ order: 4;
     }
 
 
-    
+    .container {
+        max-width: 500px;
+        display: flex;
+    }
 
 
 /*  PC profile  */
