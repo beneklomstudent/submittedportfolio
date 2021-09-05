@@ -15,15 +15,14 @@ header {  /*header information, used for the navbar */
     display: flex;
     justify-content: space-evenly;
     
+    
     }
 
 .maintemplate {   /*the primary template for basic text on the website */
     background-color:#F5D9A6;
-    color:black;
     left: 100px;
     top: 100px;
     font-family: 'Hina Mincho', serif;
-    
     border-radius: 25px;
     padding: 40px;
     filter: drop-shadow(30px 10px 4px #4444dd);
@@ -33,7 +32,8 @@ header {  /*header information, used for the navbar */
 
 h1 {
     font-family: 'Hina Mincho', serif;
-    color: black;
+    color: #A8884f
+   
 
 }
 
@@ -46,17 +46,13 @@ h1 {
     justify-content: space-around;
     
     
+    
 }
 
 
 #aboutme {                  /*basic styling for the about me section*/
-    color:black;
+    color: #6785a8
 }
-
-
-
-
-
 
 .gridlinks {     /*  For the links section in the professional links tab  */
     display: grid;
@@ -89,8 +85,8 @@ a:hover {                   /*basic hover effect for the navbar */
 .blogpost {   /*the first template for the blog, it displays images on the left while blogpost 2 does on the right */
     display: flex;
     flex-direction: row;
-    background-color: orange;
-   
+    background-color: #F5D9A6;
+    color: #6785a8;
     border-radius: 25px;
     padding: 10px;
     font-family: 'Hina Mincho', serif;
@@ -101,22 +97,25 @@ a:hover {                   /*basic hover effect for the navbar */
   }
   .blogpost :nth-child(1)               /* the order in which the blogposts elements are placed */
   {order: 1;
+  color:  #6785a8;
    
     
 
   }
   .blogpost :nth-child(2)   {
     order: 3;
-    
+    color:  #6785a8;
    
 
     }
   .blogpost :nth-child(3)   {   
     order: 2;
        align-self: center;
+       color:  #6785a8;
   }
   .blogpost :nth-child(4)    {
     order: 4;
+    color:  #6785a8;
     
 
   }
@@ -128,7 +127,8 @@ a:hover {                   /*basic hover effect for the navbar */
   .blogpost2 {          /*displays images on the right*/
 display: flex;
 flex-direction: row;
-background-color: green;
+background-color: #ffffff;
+color:  #6785a8;
 
 border-radius: 25px;
 padding: 10px;
@@ -156,6 +156,7 @@ order: 4;
 @media only screen and (min-width: 481px) and (max-width: 960px) {
     .maintemplate{ 
        left: -5px;
+       
         
        }
     .maintemplate2 {
